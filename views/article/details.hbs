@@ -1,0 +1,30 @@
+<div class="container body-content">
+    <div class="row">
+        <div class="col-md-12">
+            <article>
+                <header>
+                    <h2>{{title}}</h2>
+                </header>
+                <br>
+
+                <img class="img-responsive" src="{{this.image}}" width="400px"
+                     style="float: left; padding-right: 25px;padding-top: 10px;">
+
+                <p style="font-size: 20px;text-align: justify;padding-right: 25px;">
+                    {{content}}
+                </p>
+
+
+                <small class="author">
+                    {{this.User.fullName}}
+                </small>
+
+                <footer>
+                    <div class="pull-right">
+                        <a class="btn btn-default btn-xs" href="/">Back &raquo;</a>
+                    </div>
+                </footer>
+            </article>
+        </div>
+    </div>
+</div>
